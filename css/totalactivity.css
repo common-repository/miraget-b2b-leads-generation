@@ -1,0 +1,625 @@
+/*v2*/
+
+.miraget-leads-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.mrleads-small-form{
+   max-width:70% !important;
+
+}
+.tablenav-pages{
+    text-align: center;
+    font-size: 1.1em;
+    float: none !important;
+}
+.tablenav-pages-navspan:hover{
+    background:#0073aa;
+    color:#F1F1F1;
+}
+.pkd-container .dd-container {
+    position: relative;
+}
+.pkd-container .dd-select {
+    border-radius: 2px;
+    border: solid 1px #ccc;
+    position: relative;
+    cursor: pointer;
+}
+
+.pkd-container .dd-options {
+    border: solid 1px #ccc;
+    border-top: none;
+    list-style: none;
+    box-shadow: 0px 1px 5px #ddd;
+    display: none;
+    position: absolute;
+    z-index: 2000;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: auto;
+}
+.pkd-container div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.pkd-container div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.pkd-container div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.pkd-container div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.pkd-container .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.pkd-container .dd-option-selected {
+    background: #f6f6f6;
+}
+
+
+.pkd-container .dd-desc {
+    color: #aaa;
+    display: block;
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+.pkd-container small {
+    font-size: smaller;
+}
+.pkd-container img {
+    border: none;
+}
+
+.pkd-container .dd-option-image, .pkd-container .dd-selected-image {
+    vertical-align: middle;
+    float: left;
+    margin-right: 5px;
+    max-width: 64px;
+}
+
+.pkd-container .dd-image-right {
+    float: right;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.pkd-container .dd-option {
+    padding: 10px;
+    display: block;
+    border-bottom: solid 1px #ddd;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.pkd-container .dd-option:hover {
+    background: #f3f3f3;
+    color: #000;
+}
+
+.pkd-container .dd-pointer-up {
+    border: solid 5px transparent !important;
+    border-bottom: solid 5px #000 !important;
+    margin-top: -8px;
+}
+.pkd-container .dd-pointer-down {
+    border: solid 5px transparent;
+    border-top: solid 5px #000;
+}
+
+.pkd-container .dd-pointer {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -3px;
+}
+
+.pkd-container .dd-selected {
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pkd-container .generalBtn_other
+{
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    margin-left: 4px;
+    padding: 5px 15px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+    outline: 0;
+    font-size: 14px;
+}
+
+.pkd-container .generalBtn_other:hover{
+  background: #00A0D2;
+  color: #FFFFFF;
+  border: 1px solid #008EC2
+}
+
+.pkd-container .generalBtn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 18px;
+    border: 1px solid #25658f;
+    border-radius: 8px;
+    background: #3ca4e9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3ca4e9), to(#25658f));
+    background: -moz-linear-gradient(top, #3ca4e9, #25658f);
+    background: linear-gradient(to bottom, #3ca4e9, #25658f);
+    text-shadow: #173f5a 1px 1px 1px;
+    font: normal normal bold 16px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.pkd-container .generalBtn:hover,
+.pkd-container .generalBtn:focus {
+    border: 1px solid #2e7eb3;
+    background: #48c5ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#48c5ff), to(#2c79ac));
+    background: -moz-linear-gradient(top, #48c5ff, #2c79ac);
+    background: linear-gradient(to bottom, #48c5ff, #2c79ac);
+    color: #ffffff;
+    text-decoration: none;
+}
+.pkd-container .generalBtn:active {
+    background: #25658f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#25658f), to(#25658f));
+    background: -moz-linear-gradient(top, #25658f, #25658f);
+    background: linear-gradient(to bottom, #25658f, #25658f);
+}
+
+.pkd-container .factory-separator {
+    border-bottom: 1px solid #f9f9f9;
+    border-top: 1px solid #d1d1d1;
+    margin-bottom: 25px;
+}
+.pkd-container .settings-box {
+    box-sizing: border-box;
+    background: #F1F1F1;
+    text-align: center;
+}
+.pkd-container .settings-lower {
+    padding-left:7rem;
+    text-align: left;
+    max-width: 50rem;
+    /*padding: 1.5rem;*/
+    display: inline-block;
+}
+.pkd-container .factory-separator_row {
+    border-left: 1px solid #f9f9f9;
+    border-right: 1px solid #d1d1d1;
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.pkd-container table {
+    background: #f5f5f5;
+    border-collapse: separate;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+}
+.pkd-container thead , .pkd-container tr , .pkd-container th , .pkd-container td{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.pkd-container th {
+    background: #167F92;
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;
+    
+}
+
+.pkd-container th {
+    border-left: 1px solid #fff;
+    box-shadow: inset 1px 1px 0 #D9E4E6;
+}
+
+.pkd-container td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+
+.pkd-container .setting_table {
+    background: #f1f1f1;
+    box-shadow: inset 0 0px 0 #fff;
+}
+
+.pkd-container .setting_td {
+    text-align: right;
+    border : 0;
+    font-weight: bold;
+}
+
+.pkd-container .setting_left_align_td {
+    text-align: left;
+    border : 0;
+}
+.pkd-container .purge_css{
+    margin-left: 100px;
+}
+.pkd-container .small_icon{
+    font-size: 12px;
+    border-radius: 5px;
+}
+.pkd-container .error_message_limit{
+    float: right;
+    font-size: 20px;
+    color: red;
+}
+.pkd-container .success_message_limit{
+    float: right;
+    font-size: 20px;
+    color: green;
+}
+/* .pkd-container .company_information_data{
+     float: left !important; 
+     width:30% !important; 
+} */
+ 
+#mainTableDiv tr:hover, .widefat tr:hover{background:rgba(22, 127, 146, 0.23921568627450981) !important}
+#mainTableDiv tr,  .widefat tr { 
+    transition: all .3s ease-in ;
+}
+#mainTableDiv tr:nth-child(odd ) , .widefat tr:nth-child(odd ) {
+    background: #e4e3e3 }
+#mainTableDiv tr:nth-child( even ) , .widefat tr:nth-child(even ) {
+    background: #FFF}
+#mainTableDiv tr td , .widefat tr td {
+     white-space: nowrap;
+    position: relative;
+}
+
+.tooltip {
+    width: auto ;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 11px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position: absolute;
+    font-size: 1rem;
+    top: -1px;
+    left: 89%;
+    background: rgb(35, 40, 45);
+    color: white;
+    transition: all 1.5s  ease-in-out;
+    display: none;
+  }
+  
+  .tooltip {
+    z-index: 100;
+  }
+  
+  #mainTableDiv tr td a {
+    display: block;
+    width: 9%;
+  }
+  
+  #mainTableDiv tr td a:hover+.tooltip , .blgStr:hover+.tooltip  
+   {
+    display: block;
+    
+  }
+ /*adding tooltip for settings page */
+ .miraget-laeds-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.1em;
+    left:5px;
+    top:0px;
+}
+
+/* Tooltip text */
+.miraget-laeds-tooltip .miraget-laeds-tooltiptext {
+    visibility: hidden;
+    width: 300px;
+   
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    
+    position: absolute;
+    top: -10px;
+    left: 109%; 
+    z-index: 1;
+}
+
+
+.miraget-laeds-tooltip:hover .miraget-laeds-tooltiptext {
+    visibility: visible;
+}
+/*end adding infos for some fields option*/
+ /*end tooltip for setting page */
+  .tooltip:hover {
+    display: inline-block;
+  }
+ 
+  .apiStatus{
+    background: #ffffff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); 
+    float: right; 
+    padding: 4px 15px;
+    display: block;
+    font-weight: bold;
+    margin:15px 0 15px 0;
+  }
+  .apiStatus.sec{
+    border-left-color: #46b450;
+    color: #00880c;
+  }
+  .apiStatus.err{
+    border-left-color: #b44646;
+    color: #880000;
+  }
+ 
+/*  css for settings page*/
+.miragetgen-settings-v2 input[type=text], 
+select, 
+textarea  {
+    width: 100%;
+    padding: 5px 12px 5px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.miragetgen-settings-v2 label, .miragetgen-settings-span {
+    padding: 5px 12px 5px 0;
+    display: inline-block;
+}
+.miragetgen-settings-v2 label{
+    font-weight: 600;
+}
+.miragetgen-settings-button{
+    margin-top:3px ;
+    padding: 6px 20px 10px 20px  ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    
+}
+#export{
+    text-decoration: none;
+    color:#333;
+}
+.miragetgen-settings-v2 select{
+    width:120px;
+    height: 35px;
+}
+#chart-to-display{
+    width:150px;
+    height: 35px; 
+}
+.miragetgen-settings-v2 input[type=submit] {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:25%;
+}
+
+.miragetgen-settings-v2 input[type=submit]:hover {
+    background-color: #0073aa;
+}
+
+.miragetgen-settings-v2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.col-40 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .miragetgen-settings-v2 input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/**style for data source select box**/
+.data-source   {
+ width:160px;
+ margin-left:10px;
+}
+/* .ml-warp-words{
+    white-space: pre-line ;
+} */
+#chart-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.chart-child{
+    width:450px;
+    min-height: 500px;
+   
+}
+.leadsg-img-icon{
+    width:20px;
+    height: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.mleads-select {
+    width:150px !important;
+    
+}
+#request-token{ 
+        width: 100%;
+        height: 5px;
+        display: block ;
+        border: 1px solid #2980b9;
+        border-radius: 3px;
+        background-image: 
+          repeating-linear-gradient(
+            -45deg,
+            #2980b9,
+            #2980b9 11px,
+            #eee 10px,
+            #eee 20px /* determines size */
+          );
+        background-size: 28px 28px;
+        animation: move .5s linear infinite;
+} 
+@keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 28px 0;
+    }
+  }
+#re-mi-to{
+    visibility: hidden; 
+}
+.miraget-no-curl{ color: red ;
+    -webkit-animation: color-change 2s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 2s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+    font-size: 15px;
+    font-weight: 600;
+    display: none ;
+}
+.miraget-no-curl a{ color: #00880c};
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: rgb(15, 1, 1); }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: rgb(15, 1, 1); }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: rgb(15, 1, 1); }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: rgb(15, 1, 1); }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color:rgb(15, 1, 1); }
+    100% { color: red; }
+}
